@@ -87,8 +87,9 @@ crypto-pipeline/
 │   ├── consumer_prices.py
 │   └── spark_job.py
 ├── sql/
-│   ├── dim_fact_schema.sql
-│   └── init_data.sql
+│   ├── kline_dim_fact.sql
+│   ├── indicator_dim_fact
+│   └── news_dim_fact.sql
 ├── docker-compose.yaml
 ├── requirements.txt
 └── README.md
